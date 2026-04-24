@@ -52,9 +52,10 @@ sudo docker network create -d macvlan \
   newasgard 
 ```
 
-### 8. Inspect Bridge
-'''bash
+### 8. Inspect Bridge Network
+```bash
 sudo docker inspect bridge
+```
 --- 
 
 ## 📸 Screenshots!

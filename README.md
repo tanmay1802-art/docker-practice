@@ -58,10 +58,28 @@ sudo docker inspect bridge
 ```
 --- 
 
-## 📸 Screenshots!
+## 📸 Screenshots
 
+### Docker Install
+![Docker Install](docker-install.jpg)
 
----
+### Docker Run Nginx
+![Docker Run](docker-run.jpg)
+
+### Docker PS & Containers
+![Docker PS](docker-ps.jpg)
+
+### Docker Exec
+![Docker Exec](docker-exec.jpg)
+
+### IP Address
+![IP Address](ip-address.jpg)
+
+### Docker Network Create
+![Network Create](docker-network.jpg)
+
+### Docker Inspect Bridge
+![Inspect Bridge](docker-inspect.jpg)
 
 ## 📝 What I Learned
 - How to install Docker on Ubuntu

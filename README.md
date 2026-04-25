@@ -6,8 +6,8 @@ inside Docker containers and accessed them via browser on localhost.
 
 ##  Description
 This is my personal Docker practice log. I explored Docker installation, 
-container management, port mapping, and macvlan network configuration 
-on Ubuntu running inside VirtualBox.
+container management, port mapping, and macvlan network configuration then i also try to put my github profile in a docker container in local host server...then i tried with libreoffice..still exploring more to know docker well.
+i tried this on Ubuntu running inside VirtualBox.
 
 ---
 

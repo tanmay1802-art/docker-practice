@@ -124,6 +124,5 @@ docker run -d \
 - How to run and manage containers
 - How to map ports between host and container
 - How to check network interfaces using `ip address`
-- How to create a macvlan network in Docker
-- - How to run GUI apps like Firefox and LibreOffice inside Docker
+- How to create a macvlan network in Docker - How to run GUI apps like Firefox and LibreOffice inside Docker
 - How to access containerized apps via browser on localhost

@@ -1,15 +1,17 @@
 # docker-practice
 Docker practice on Ubuntu VirtualBox - containers, networking, macvlan setup
-# 🐳 Docker Practice on Ubuntu
+Also ran GUI applications like Firefox and LibreOffice 
+inside Docker containers and accessed them via browser on localhost.
+#  Docker Practice on Ubuntu
 
-## 📌 Description
+##  Description
 This is my personal Docker practice log. I explored Docker installation, 
 container management, port mapping, and macvlan network configuration 
 on Ubuntu running inside VirtualBox.
 
 ---
 
-## 🛠️ What I Practiced
+##  What I Practiced
 
 ### 1. Install Docker
 ```bash

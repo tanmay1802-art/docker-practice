@@ -81,9 +81,47 @@ sudo docker inspect bridge
 ### Docker Inspect Bridge
 ![Inspect Bridge](docker%20inspect%20bridge.jpg)
 
+### 9. Run Firefox in Docker
+```bash
+docker run -d \
+  --name=firefox \
+  --security-opt seccomp=unconfined \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Etc/UTC \
+  -p 3000:3000 \
+  -p 3001:3001 \
+  --shm-size="1gb" \
+  --restart unless-stopped \
+  lscr.io/linuxserver/firefox:latest
+```
+![My GitHub Running](mygithub%20running.jpg)
+![GitHub Profile Container](githubmyprofilecontainer.jpg)
+![Localhost 3000](localhost%20port%203000.jpg)
+
+### 10. Run LibreOffice in Docker
+```bash
+docker run -d \
+  --name=libreoffice \
+  --security-opt seccomp=unconfined \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Etc/UTC \
+  -p 3005:3000 \
+  -p 3006:3001 \
+  --restart unless-stopped \
+  lscr.io/linuxserver/libreoffice:latest
+```
+![LibreOffice Setup](libraryoffice%20docker%20setup.jpg)
+![LibreOffice Running](library%20office%20running%20.jpg)
+![Localhost 3006](localhost%20port%203006.jpg)
+
+
 ## 📝 What I Learned
 - How to install Docker on Ubuntu
 - How to run and manage containers
 - How to map ports between host and container
 - How to check network interfaces using `ip address`
 - How to create a macvlan network in Docker
+- - How to run GUI apps like Firefox and LibreOffice inside Docker
+- How to access containerized apps via browser on localhost
